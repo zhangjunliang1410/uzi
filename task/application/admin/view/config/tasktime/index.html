@@ -1,0 +1,22 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">任务时间</label>
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">每天可做任务开始时间</span>
+                <input type="text" name="userLevel[start]" value="{$userLevel['start']}" class="form-control">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">每天可做任务结束时间</span>
+                <input type="text" name="userLevel[end]" value="{$userLevel['end']}" class="form-control">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">示例18:00:02</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success btn-embossed" style="margin-left: 160px">{:__('OK')}</button>
+    </div>
+
+</form>

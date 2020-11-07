@@ -1,0 +1,1 @@
+https://open.douyin.com/oauth/access_token/?client_key=awzj2dkc3z8momgf&client_secret=68555ba0a77bf1c6633a5d76e9764da0&code=tTwM9KZGE7gGMRDDwkJOzZoKQ8dbbmlfuFTC&grant_type=authorization_code

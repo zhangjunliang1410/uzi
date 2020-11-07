@@ -1,0 +1,14 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">拒绝原因</span>
+                <input type="text" name="reason" value="图片内容不合格" class="form-control">
+            </div>
+        </div>
+    </div>
+    <div>
+        <input type="hidden" name="id" value="{$row.id}" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

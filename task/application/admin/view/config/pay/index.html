@@ -1,0 +1,239 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="" enctype="multipart/form-data">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">支付配置</label>
+        <div class="col-xs-12 col-sm-9">
+            <label style="display: block">银行卡</label>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡1:开户行</span>
+                <input type="text" name="bank[bank][0][name]" value="{$bank['bank'][0]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[bank][0][user]" value="{$bank['bank'][0]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[bank][0][card]" value="{$bank['bank'][0]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[bank][0][switch]" value="{$bank['bank'][0]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡2:开户行</span>
+                <input type="text" name="bank[bank][1][name]" value="{$bank['bank'][1]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[bank][1][user]" value="{$bank['bank'][1]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[bank][1][card]" value="{$bank['bank'][1]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[bank][1][switch]" value="{$bank['bank'][1]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡3:开户行</span>
+                <input type="text" name="bank[bank][2][name]" value="{$bank['bank'][2]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[bank][2][user]" value="{$bank['bank'][2]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[bank][2][card]" value="{$bank['bank'][2]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[bank][2][switch]" value="{$bank['bank'][2]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="radio" style="display: block">
+                <label>银行卡总开关</label>
+                <label>
+                    <input type="radio" value="1" name="bank[bank][switch]" {if condition="$bank['bank']['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="bank[bank][switch]" {if condition="$bank['bank']['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <label style="display: block">支付宝转银行卡</label>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡1:开户行</span>
+                <input type="text" name="bank[alipay][0][name]" value="{$bank['alipay'][0]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[alipay][0][user]" value="{$bank['alipay'][0]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[alipay][0][card]" value="{$bank['alipay'][0]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[alipay][0][switch]" value="{$bank['alipay'][0]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡2:开户行</span>
+                <input type="text" name="bank[alipay][1][name]" value="{$bank['alipay'][1]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[alipay][1][user]" value="{$bank['alipay'][1]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[alipay][1][card]" value="{$bank['alipay'][1]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[alipay][1][switch]" value="{$bank['alipay'][1]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡3:开户行</span>
+                <input type="text" name="bank[alipay][2][name]" value="{$bank['alipay'][2]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[alipay][2][user]" value="{$bank['alipay'][2]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[alipay][2][card]" value="{$bank['alipay'][2]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[alipay][2][switch]" value="{$bank['alipay'][2]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="radio" style="display: block">
+                <label >支付宝转银行卡总开关</label>
+                <label>
+                    <input type="radio" value="1" name="bank[alipay][switch]" {if condition="$bank['alipay']['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="bank[alipay][switch]" {if condition="$bank['alipay']['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <label style="display: block">微信转银行卡</label>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡1:开户行</span>
+                <input type="text" name="bank[wechat][0][name]" value="{$bank['wechat'][0]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[wechat][0][user]" value="{$bank['wechat'][0]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[wechat][0][card]" value="{$bank['wechat'][0]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[wechat][0][switch]" value="{$bank['wechat'][0]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡2:开户行</span>
+                <input type="text" name="bank[wechat][1][name]" value="{$bank['wechat'][1]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[wechat][1][user]" value="{$bank['wechat'][1]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[wechat][1][card]" value="{$bank['wechat'][1]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[wechat][1][switch]" value="{$bank['wechat'][1]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">银行卡3:开户行</span>
+                <input type="text" name="bank[wechat][2][name]" value="{$bank['wechat'][2]['name']}" class="form-control">
+                <span class="input-group-addon">,开户人</span>
+                <input type="text" name="bank[wechat][2][user]" value="{$bank['wechat'][2]['user']}" class="form-control">
+                <span class="input-group-addon">,银行卡</span>
+                <input type="text" name="bank[wechat][2][card]" value="{$bank['wechat'][2]['card']}" class="form-control">
+                <span class="input-group-addon">开关</span>
+                <input type="text" name="bank[wechat][2][switch]" value="{$bank['wechat'][2]['switch']}" class="form-control">
+                <span class="input-group-addon">2关闭1开启</span>
+            </div>
+            <div class="radio" style="display: block">
+                <label >微信转银行卡总开关</label>
+                <label>
+                    <input type="radio" value="1" name="bank[wechat][switch]" {if condition="$bank['wechat']['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="bank[wechat][switch]" {if condition="$bank['wechat']['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label>支付宝1</label>
+                <input type="file" name="alipay1">
+                <p class="help-block">{$alipay[0]['image']}</p>
+            </div>
+            <div class="radio">
+                <label >支付宝1开关</label>
+                <label>
+                    <input type="radio"  value="1" name="alipay[0][switch]" {if condition="$alipay[0]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="alipay[0][switch]" {if condition="$alipay[0]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label >支付宝2</label>
+                <input type="file" name="alipay2">
+                <p class="help-block">{$alipay[1]['image']}</p>
+            </div>
+            <div class="radio">
+                <label>支付宝2开关</label>
+                <label>
+                    <input type="radio" value="1" name="alipay[1][switch]" {if condition="$alipay[1]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="alipay[1][switch]" {if condition="$alipay[1]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label >支付宝3</label>
+                <input type="file" name="alipay3">
+                <p class="help-block">{$alipay[2]['image']}</p>
+            </div>
+            <div class="radio">
+                <label>支付宝3开关</label>
+                <label>
+                    <input type="radio" value="1" name="alipay[2][switch]" {if condition="$alipay[2]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="alipay[2][switch]" {if condition="$alipay[2]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="radio" style="display: block">
+                <label >支付宝总开关</label>
+                <label>
+                    <input type="radio" value="1" name="alipay[switch]" {if condition="$alipay['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="alipay[switch]" {if condition="$alipay['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label >微信1</label>
+                <input type="file" name="wechat1">
+                <p class="help-block">{$wechat[0]['image']}</p>
+            </div>
+            <div class="radio">
+                <label>微信1开关</label>
+                <label>
+                    <input type="radio"  value="1" name="wechat[0][switch]" {if condition="$wechat[0]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="wechat[0][switch]" {if condition="$wechat[0]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label >微信2</label>
+                <input type="file" name="wechat2">
+                <p class="help-block">{$wechat[1]['image']}</p>
+            </div>
+            <div class="radio">
+                <label>微信2开关</label>
+                <label>
+                    <input type="radio" value="1" name="wechat[1][switch]" {if condition="$wechat[1]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="wechat[1][switch]" {if condition="$wechat[1]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="form-group" style="display: block">
+                <label >微信3</label>
+                <input type="file" name="wechat3">
+                <p class="help-block">{$wechat[2]['image']}</p>
+            </div>
+            <div class="radio">
+                <label>微信3开关</label>
+                <label>
+                    <input type="radio"  value="1" name="wechat[2][switch]" {if condition="$wechat[2]['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="wechat[2][switch]" {if condition="$wechat[2]['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+            <div class="radio" style="display: block">
+                <label>微信总开关</label>
+                <label>
+                    <input type="radio" value="1" name="wechat[switch]" {if condition="$wechat['switch'] eq 1"}checked="checked"{/if}> 开启
+                </label>
+                <label>
+                    <input type="radio" value="2" name="wechat[switch]" {if condition="$wechat['switch'] eq 2"}checked="checked"{/if}> 关闭
+                </label>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

@@ -1,0 +1,2916 @@
+---------------------------------------------------------------
+[ 2020-09-25T15:22:20+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/config/userlevel?ref=addtabs
+[运行时间：0.186871s] [吞吐率：5.35req/s] [内存消耗：2,793.69kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006653s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006673s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001362s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.userlevel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002496s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002539s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:22+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs
+[运行时间：0.053887s] [吞吐率：18.56req/s] [内存消耗：3,109.77kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002659s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002676s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/userlevel?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php/config/userlevel?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001622s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:22+08:00 ] 219.157.255.207 GET task.zz0510.top/index.php?s=/captcha
+[运行时间：0.028526s] [吞吐率：35.06req/s] [内存消耗：2,211.95kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001868s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001883s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:23+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=index&v=1601018542
+[运行时间：0.030528s] [吞吐率：32.76req/s] [内存消耗：3,118.42kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001800s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001814s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1601018542',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001066s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000074s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:26+08:00 ] 219.157.255.207 GET task.zz0510.top/index.php?s=/captcha&r=0.5387712900795563
+[运行时间：0.021201s] [吞吐率：47.17req/s] [内存消耗：2,212.23kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001751s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001764s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.5387712900795563',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:27+08:00 ] 219.157.255.207 GET task.zz0510.top/index.php?s=/captcha&r=0.610347374725245
+[运行时间：0.021199s] [吞吐率：47.17req/s] [内存消耗：2,212.23kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001748s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001763s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.610347374725245',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:32+08:00 ] 219.157.255.207 POST task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs
+[运行时间：0.078117s] [吞吐率：12.80req/s] [内存消耗：3,904.24kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001752s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001766s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'origin' => 'http://task.zz0510.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php/config/userlevel?ref=addtabs',
+  '__token__' => '576a8f3c036606808379c7738ba53321',
+  'username' => 'canghe',
+  'password' => '123456',
+  'captcha' => 'p6lx',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001025s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008936s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:32+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/config/userlevel?ref=addtabs
+[运行时间：0.076296s] [吞吐率：13.11req/s] [内存消耗：3,680.98kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002615s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002639s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.userlevel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001524s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:32+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/index/index
+[运行时间：0.112553s] [吞吐率：8.88req/s] [内存消耗：4,203.98kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002570s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002594s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000208s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php%2Fconfig%2Fuserlevel%3Fref%3Daddtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001539s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:33+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/dashboard?addtabs=1
+[运行时间：0.171321s] [吞吐率：5.84req/s] [内存消耗：4,052.59kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001683s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001695s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001057s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/task/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'user1',
+  6 => 'user2',
+  7 => 'user3',
+  8 => 'recharge1',
+  9 => 'recharge2',
+  10 => 'recharge3',
+  11 => 'withdraw1',
+  12 => 'withdraw2',
+  13 => 'withdraw3',
+  14 => 'rebate1',
+  15 => 'rebate2',
+  16 => 'rebate3',
+  17 => 'task1',
+  18 => 'task2',
+  19 => 'task3',
+  20 => 'count1',
+  21 => 'count2',
+  22 => 'count3',
+  23 => 'count4',
+  24 => 'createlist',
+  25 => 'addonversion',
+  26 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:33+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/config/userlevel?addtabs=1
+[运行时间：0.253218s] [吞吐率：3.95req/s] [内存消耗：3,930.01kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001689s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001703s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.userlevel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000998s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\config\Userlevel->index[ /www/wwwroot/task/application/admin/controller/config/Userlevel.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/config/userlevel/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'userLevel',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:33+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=index&v=1601018552
+[运行时间：0.035114s] [吞吐率：28.48req/s] [内存消耗：3,988.97kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001735s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001748s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000148s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1601018552',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001014s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000054s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:33+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=dashboard&v=1601018553
+[运行时间：0.037478s] [吞吐率：26.68req/s] [内存消耗：3,987.30kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001743s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001757s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1601018553',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001006s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000055s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:22:33+08:00 ] 219.157.255.207 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=config.userlevel&v=1601018553
+[运行时间：0.039854s] [吞吐率：25.09req/s] [内存消耗：3,983.70kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001799s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001812s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=172f8b7bad4167-02679af43ee042-3e3e5e0e-1fa400-172f8b7bad56d0; PHPSESSID=id416dkh8vr9rvnhii02q74n2e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/userlevel?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'config.userlevel',
+  'v' => '1601018553',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001641s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000060s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:47+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.023162s] [吞吐率：43.17req/s] [内存消耗：2,809.05kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001707s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001720s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001011s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000063s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:57+08:00 ] 61.158.148.111 GET task.zz0510.top/
+[运行时间：0.035124s] [吞吐率：28.47req/s] [内存消耗：2,842.79kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001717s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001730s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:57+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.025370s] [吞吐率：39.42req/s] [内存消耗：3,110.02kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001699s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001711s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001002s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000056s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:57+08:00 ] 61.158.148.111 GET task.zz0510.top/index.php?s=/captcha
+[运行时间：0.021405s] [吞吐率：46.72req/s] [内存消耗：2,212.43kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001766s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001781s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:58+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.023290s] [吞吐率：42.94req/s] [内存消耗：2,810.78kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001739s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001752s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001007s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000063s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:25:59+08:00 ] 61.158.148.111 GET task.zz0510.top/
+[运行时间：0.024034s] [吞吐率：41.61req/s] [内存消耗：2,842.79kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001683s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001706s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:09+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.024651s] [吞吐率：40.57req/s] [内存消耗：2,810.78kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001915s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001930s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001063s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000067s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:12+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.024745s] [吞吐率：40.41req/s] [内存消耗：2,810.78kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001696s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001710s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000148s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001018s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000064s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:13+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.027076s] [吞吐率：36.93req/s] [内存消耗：3,110.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001750s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001764s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001063s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000062s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:14+08:00 ] 61.158.148.111 GET task.zz0510.top/index.php?s=/captcha
+[运行时间：0.019236s] [吞吐率：51.99req/s] [内存消耗：2,212.55kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001710s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001724s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:14+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=index&v=1601018773
+[运行时间：0.025900s] [吞吐率：38.61req/s] [内存消耗：3,119.31kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001693s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001707s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1601018773',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000994s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000049s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:34+08:00 ] 61.158.148.111 POST task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.042619s] [吞吐率：23.46req/s] [内存消耗：3,869.12kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001851s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001869s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://task.zz0510.top',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+  '__token__' => 'df89878347072e1567ebbf9872285580',
+  'username' => 'canghe',
+  'password' => '123456',
+  'captcha' => 'j6ot',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001122s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.014598s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:34+08:00 ] 61.158.148.111 GET task.zz0510.top/index.php?s=/captcha&r=0.17632564441598864
+[运行时间：0.020822s] [吞吐率：48.03req/s] [内存消耗：2,212.73kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001884s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001904s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.17632564441598864',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:37+08:00 ] 61.158.148.111 POST task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.037613s] [吞吐率：26.59req/s] [内存消耗：3,869.12kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001794s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001807s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://task.zz0510.top',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+  '__token__' => 'c48335881a4ef92970d8f5b3447722fd',
+  'username' => 'canghe',
+  'password' => '123456',
+  'captcha' => 'j6ot',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010995s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:37+08:00 ] 61.158.148.111 GET task.zz0510.top/index.php?s=/captcha&r=0.5915920470680132
+[运行时间：0.020553s] [吞吐率：48.65req/s] [内存消耗：2,212.71kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001680s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001692s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.5915920470680132',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:37+08:00 ] 61.158.148.111 POST task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.042459s] [吞吐率：23.55req/s] [内存消耗：3,869.12kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001691s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001706s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://task.zz0510.top',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+  '__token__' => '7894d24cff68b40f7de4847d1cdee463',
+  'username' => 'canghe',
+  'password' => '123456',
+  'captcha' => 'j6ot',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001102s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015856s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:37+08:00 ] 61.158.148.111 GET task.zz0510.top/index.php?s=/captcha&r=0.4180067560284775
+[运行时间：0.019489s] [吞吐率：51.31req/s] [内存消耗：2,212.71kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001743s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001757s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000148s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.4180067560284775',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/task/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:44+08:00 ] 61.158.148.111 POST task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.085082s] [吞吐率：11.75req/s] [内存消耗：3,904.54kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001877s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001890s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://task.zz0510.top',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+  '__token__' => '436847767b5dc6cfac16b0591677dc9e',
+  'username' => 'canghe',
+  'password' => '123456',
+  'captcha' => 'ud53',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001131s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004777s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:44+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.076070s] [吞吐率：13.15req/s] [内存消耗：4,202.41kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001759s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001774s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000995s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000057s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:44+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/dashboard?addtabs=1
+[运行时间：0.047810s] [吞吐率：20.92req/s] [内存消耗：4,053.10kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001754s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001767s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001026s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/task/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'user1',
+  6 => 'user2',
+  7 => 'user3',
+  8 => 'recharge1',
+  9 => 'recharge2',
+  10 => 'recharge3',
+  11 => 'withdraw1',
+  12 => 'withdraw2',
+  13 => 'withdraw3',
+  14 => 'rebate1',
+  15 => 'rebate2',
+  16 => 'rebate3',
+  17 => 'task1',
+  18 => 'task2',
+  19 => 'task3',
+  20 => 'count1',
+  21 => 'count2',
+  22 => 'count3',
+  23 => 'count4',
+  24 => 'createlist',
+  25 => 'addonversion',
+  26 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:45+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=dashboard&v=1601018804
+[运行时间：0.037281s] [吞吐率：26.82req/s] [内存消耗：3,988.34kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001837s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001852s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/dashboard?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1601018804',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001012s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000057s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:45+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=index&v=1601018804
+[运行时间：0.050506s] [吞吐率：19.80req/s] [内存消耗：3,989.98kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002828s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002846s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1601018804',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001759s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:57+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/user/user/send?addtabs=1
+[运行时间：0.054059s] [吞吐率：18.50req/s] [内存消耗：4,149.24kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001801s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001819s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'send',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/user/user/send?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001126s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->send[ /www/wwwroot/task/application/admin/controller/user/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/user/user/send.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'levelList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:26:58+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=user.user&v=1601018817
+[运行时间：0.034413s] [吞吐率：29.06req/s] [内存消耗：3,987.64kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001950s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001963s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/user/user/send?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.user',
+  'v' => '1601018817',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001088s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000051s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:02+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/config/package?addtabs=1
+[运行时间：0.048182s] [吞吐率：20.75req/s] [内存消耗：4,065.62kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001975s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001991s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.package',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/package?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\config\Package->index[ /www/wwwroot/task/application/admin/controller/config/Package.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/config/package/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'packagejson',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000057s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:03+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=config.package&v=1601018822
+[运行时间：0.034301s] [吞吐率：29.15req/s] [内存消耗：3,984.75kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001835s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001849s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/package?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'config.package',
+  'v' => '1601018822',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001111s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000050s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:04+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/config/userlevel?addtabs=1
+[运行时间：0.037183s] [吞吐率：26.89req/s] [内存消耗：3,930.71kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001784s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001797s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.userlevel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/userlevel?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001047s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\config\Userlevel->index[ /www/wwwroot/task/application/admin/controller/config/Userlevel.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/config/userlevel/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'userLevel',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000055s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:05+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=config.userlevel&v=1601018824
+[运行时间：0.034097s] [吞吐率：29.33req/s] [内存消耗：3,984.75kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001721s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001734s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/userlevel?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'config.userlevel',
+  'v' => '1601018824',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001002s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:08+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/config/rebate?addtabs=1
+[运行时间：0.041045s] [吞吐率：24.36req/s] [内存消耗：4,077.55kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001699s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001713s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000141s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.rebate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/rebate?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\config\Rebate->index[ /www/wwwroot/task/application/admin/controller/config/Rebate.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/config/rebate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'userLevel',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000053s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:09+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=config.rebate&v=1601018828
+[运行时间：0.034849s] [吞吐率：28.70req/s] [内存消耗：3,984.75kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001726s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001738s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/rebate?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'config.rebate',
+  'v' => '1601018828',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000063s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:10+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/config/withdraw?addtabs=1
+[运行时间：0.038780s] [吞吐率：25.79req/s] [内存消耗：4,069.82kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001705s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001718s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.withdraw',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/withdraw?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000995s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\config\Withdraw->index[ /www/wwwroot/task/application/admin/controller/config/Withdraw.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/config/withdraw/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'userLevel',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000052s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:10+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=config.withdraw&v=1601018830
+[运行时间：0.033416s] [吞吐率：29.93req/s] [内存消耗：3,984.75kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001699s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001715s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/config/withdraw?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'config.withdraw',
+  'v' => '1601018830',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001009s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:16+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/order/order?addtabs=1
+[运行时间：0.048252s] [吞吐率：20.72req/s] [内存消耗：4,129.77kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001691s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001704s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/order/order?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001007s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/order/order.php
+[ info ] [ RUN ] app\admin\controller\order\Order->index[ /www/wwwroot/task/application/admin/controller/order/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/order/order/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000066s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:17+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/ajax/lang?callback=define&controllername=order.order&v=1601018836
+[运行时间：0.035538s] [吞吐率：28.14req/s] [内存消耗：3,986.47kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001801s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001815s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/order/order?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order.order',
+  'v' => '1601018836',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001035s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/task/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/order/order.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000049s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:27:18+08:00 ] 61.158.148.111 GET task.zz0510.top/jCzJTcHroD.php/order/order/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1601018837392
+[运行时间：0.042797s] [吞吐率：23.37req/s] [内存消耗：4,021.65kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001826s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001839s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9qck1mec2ad1n23gh9domj00fj',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://task.zz0510.top/jCzJTcHroD.php/order/order?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2006C3LC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 MMWEBID/1930 MicroMessenger/7.0.17.1720(0x2700113E) Process/tools WeChat/arm32 NetType/4G Language/zh_CN ABI/arm32',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1601018837392',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001126s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/order/order.php
+[ info ] [ RUN ] app\admin\controller\order\Order->index[ /www/wwwroot/task/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000080s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:34:54+08:00 ] 180.97.118.223 GET task.zz0510.top/jCzJTcHroD.php
+[运行时间：0.024841s] [吞吐率：40.26req/s] [内存消耗：2,805.45kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001718s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001732s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001015s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000079s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:37:44+08:00 ] 61.151.207.205 GET task.zz0510.top/jCzJTcHroD.php/index/login?url=%2FjCzJTcHroD.php
+[运行时间：0.027419s] [吞吐率：36.47req/s] [内存消耗：3,105.69kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001753s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001765s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/jCzJTcHroD.php',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001057s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/task/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000056s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:39:00+08:00 ] 101.89.19.149 GET task.zz0510.top/jCzJTcHroD.php/config/withdraw?ref=addtabs
+[运行时间：0.026021s] [吞吐率：38.43req/s] [内存消耗：2,790.33kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001795s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.withdraw',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001065s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000082s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:39:10+08:00 ] 101.89.19.197 GET task.zz0510.top/jCzJTcHroD.php/user/user/send?ref=addtabs
+[运行时间：0.024230s] [吞吐率：41.27req/s] [内存消耗：2,815.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001784s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001797s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'send',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001065s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000059s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T15:40:54+08:00 ] 101.91.60.11 GET task.zz0510.top/jCzJTcHroD.php/order/order?ref=addtabs
+[运行时间：0.024588s] [吞吐率：40.67req/s] [内存消耗：2,824.51kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001802s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001818s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001021s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000067s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T16:10:39+08:00 ] 14.17.70.174 GET task.zz0510.top/
+[运行时间：0.031909s] [吞吐率：31.34req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001825s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001837s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001177s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T16:10:40+08:00 ] 14.17.70.174 GET task.zz0510.top/
+[运行时间：0.024059s] [吞吐率：41.56req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001809s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001824s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001011s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-25T16:10:40+08:00 ] 14.17.70.174 GET task.zz0510.top/
+[运行时间：0.023793s] [吞吐率：42.03req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001726s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001738s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001004s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File

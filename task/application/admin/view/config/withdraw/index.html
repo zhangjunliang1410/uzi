@@ -1,0 +1,26 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">提现参数</label>
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">提现需完成</span>
+                <input type="text" name="userLevel[finish]" value="{$userLevel['finish']}" class="form-control">
+                <span class="input-group-addon">单任务,邀请</span>
+                <input type="text" name="userLevel[invite]" value="{$userLevel['invite']}" class="form-control">
+                <span class="input-group-addon">好友</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">好友,会员等级</span>
+                <input type="text" name="userLevel[level]" value="{$userLevel['level']}" class="form-control">
+                <span class="input-group-addon">以上可提现</span>
+                <span class="input-group-addon">会员等级0黄铜1黄金2白金3钻石4钻石5至尊</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">提现金额</span>
+                <input type="text" name="userLevel[withdraw]" value="{$userLevel['withdraw']}" class="form-control">
+                <span class="input-group-addon">例如10,20,30用英文,间隔即可</span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

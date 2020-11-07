@@ -1,0 +1,55 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">返佣参数</label>
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">注册用户完成</span>
+                <input type="text" name="userLevel[active][num]" value="{$userLevel['active']['num']}" class="form-control">
+                <span class="input-group-addon">单成为活跃用户</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">非会员用户邀请普通用户奖励</span>
+                <input type="text" name="userLevel[unmember][ordinary]" value="{$userLevel['unmember']['ordinary']}" class="form-control">
+                <span class="input-group-addon">元</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">非会员用户下级变活跃用户奖励</span>
+                <input type="text" name="userLevel[unmember][active]" value="{$userLevel['unmember']['active']}" class="form-control">
+                <span class="input-group-addon">元</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">非会员用户下级变充值用户奖励</span>
+                <input type="text" name="userLevel[unmember][recharge]" value="{$userLevel['unmember']['recharge']}" class="form-control">
+                <span class="input-group-addon">元+充值额</span>
+                <input type="text" name="userLevel[unmember][percent]" value="{$userLevel['unmember']['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">非会员直推一级享受</span>
+                <input type="text" name="userLevel[unmember][0]" value="{$userLevel['unmember'][0]}" class="form-control">
+                <span class="input-group-addon">%返佣</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">会员直推一级享受</span>
+                <input type="text" name="userLevel[member][0]" value="{$userLevel['member'][0]}" class="form-control">
+                <span class="input-group-addon">%返佣</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">会员直推二级享受</span>
+                <input type="text" name="userLevel[member][1]" value="{$userLevel['member'][1]}" class="form-control">
+                <span class="input-group-addon">%返佣</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">会员直推三级享受</span>
+                <input type="text" name="userLevel[member][2]" value="{$userLevel['member'][2]}" class="form-control">
+                <span class="input-group-addon">%返佣</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">佣金满足</span>
+                <input type="text" name="userLevel[out]" value="{$userLevel['out']}" class="form-control">
+                <span class="input-group-addon">可转余额</span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

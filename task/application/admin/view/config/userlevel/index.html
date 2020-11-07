@@ -1,0 +1,56 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">等级参数</label>
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">青铜会员赠送</span>
+                <input type="text" name="userLevel[0][num]" value="{$userLevel[0]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[0][tasknum]" value="{$userLevel[0]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">黄金会员花费</span>
+                <input type="text" name="userLevel[1][num]" value="{$userLevel[1]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[1][tasknum]" value="{$userLevel[1]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">白金会员花费</span>
+                <input type="text" name="userLevel[2][num]" value="{$userLevel[2]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[2][tasknum]" value="{$userLevel[2]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">钻石会员花费</span>
+                <input type="text" name="userLevel[3][num]" value="{$userLevel[3]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[3][tasknum]" value="{$userLevel[3]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">至尊会员花费</span>
+                <input type="text" name="userLevel[4][num]" value="{$userLevel[4]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[4][tasknum]" value="{$userLevel[4]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">荣耀会员花费</span>
+                <input type="text" name="userLevel[5][num]" value="{$userLevel[5]['num']}" class="form-control">
+                <span class="input-group-addon">钻石,每日可做</span>
+                <input type="text" name="userLevel[5][tasknum]" value="{$userLevel[5]['tasknum']}" class="form-control">
+                <span class="input-group-addon">任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">充值金额</span>
+                <input type="text" name="userLevel[recharge]" value="{$userLevel['recharge']}" class="form-control">
+                <span class="input-group-addon">钻石</span>
+                <span class="input-group-addon">例如:100,200,300,500,1000中间用英文,间隔</span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

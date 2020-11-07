@@ -1,0 +1,58 @@
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    table.gridtable th {
+        border-width: 1px;
+        padding: 20px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+        text-align: center;
+    }
+    table.gridtable td {
+        border-width: 1px;
+        padding: 20px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+        text-align: center;
+    }
+</style>
+<table class="gridtable">
+    <tr>
+        <th>用户id</th>
+        <th>手机号</th>
+        <th>昵称</th>
+        <th>会员等级</th>
+        <th>注册时间</th>
+    </tr>
+    {foreach $list as $vo}
+    <tr>
+        <td>{$vo.id}</td>
+        <td>{$vo.mobile}</td>
+        <td>{$vo.nickname}</td>
+        <td>{if condition="$vo['level'] eq 0"}
+        黄铜
+        {elseif condition="$vo['level'] eq 1"}
+        黄金
+        {elseif condition="$vo['level'] eq 2"}
+        白金
+        {elseif condition="$vo['level'] eq 3"}
+        钻石
+        {elseif condition="$vo['level'] eq 4"}
+        至尊
+        {/if}
+       </td>
+        <td>{:date('Y-m-d H:i:s',$vo['createtime'])}</td>
+    </tr>
+    {/foreach}
+</table>
+
+{$list->render()}

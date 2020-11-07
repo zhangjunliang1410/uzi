@@ -1,0 +1,75 @@
+---------------------------------------------------------------
+[ 2020-09-24T14:29:50+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.305746s] [吞吐率：3.27req/s] [内存消耗：4,070.92kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.011231s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011258s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003642s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8083/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(83F1F63905C650C86077212B6328C272)',
+  'origin' => 'http://localhost:8083',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004629s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-24T14:30:00+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.034771s] [吞吐率：28.76req/s] [内存消耗：4,070.48kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001846s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001859s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8083/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(83F1F63905C650C86077212B6328C272)',
+  'origin' => 'http://localhost:8083',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001021s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

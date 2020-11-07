@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>下载视频</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+	</head>
+	<style type="text/css">
+		
+		.pd_video_btn{
+			display: inline-block;
+			width:40%;
+			height:30px;
+			line-height:30px;
+			text-align: center;
+			color:#ffffff;
+			font-size: 14px;
+			background-image: linear-gradient(#da6458,#e98c85);
+			position:absolute;
+			top:200px;
+			left:30%;
+			border-radius: 26px;
+			text-decoration:none; 
+		}
+		
+	</style>
+	<body>
+		<div id="wrap">
+			<a id="box" class="pd_video_btn" download>开始下载视频</a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var userAgent = navigator.userAgent;
+		if (!/toutiaomicroapp/i.test(userAgent)) {
+			document.querySelector('#wrap').style.visibility = 'visible';
+		}
+		
+	</script>
+	<!-- uni 的 SDK -->
+	<script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+	
+	<script type="text/javascript">
+		 //取url中的参数值
+		function getQuery(name) {
+			// 正则：[找寻'&' + 'url参数名字' = '值' + '&']（'&'可以不存在）
+			let reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			let r = window.location.search.substr(1).match(reg);
+			
+			if(r != null) {
+				// 对参数值进行解码
+				return decodeURIComponent(r[2]);
+			}
+			return null;
+		}
+		
+		const url =getQuery("data")
+		$('#box').attr('href',url); 
+
+	</script>
+</html>

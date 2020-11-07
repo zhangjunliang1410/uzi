@@ -1,0 +1,86 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">大转盘参数</label>
+        <div class="col-xs-12 col-sm-9">
+            <span>奖品类型:1谢谢参与2钻石3余额4荣耀会员,奖品如果是余额或钻石第一个填数量，谢谢参与和荣耀会员填名称</span>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[0][name]" value="{$userLevel[0]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[0][type]" value="{$userLevel[0]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[0][percent]" value="{$userLevel[0]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[1][name]" value="{$userLevel[1]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[1][type]" value="{$userLevel[1]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[1][percent]" value="{$userLevel[1]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[2][name]" value="{$userLevel[2]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[2][type]" value="{$userLevel[2]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[2][percent]" value="{$userLevel[2]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[3][name]" value="{$userLevel[3]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[3][type]" value="{$userLevel[3]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[3][percent]" value="{$userLevel[3]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[4][name]" value="{$userLevel[4]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[4][type]" value="{$userLevel[4]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[4][percent]" value="{$userLevel[4]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[5][name]" value="{$userLevel[5]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[5][type]" value="{$userLevel[5]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[5][percent]" value="{$userLevel[5]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[6][name]" value="{$userLevel[6]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[6][type]" value="{$userLevel[6]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[6][percent]" value="{$userLevel[6]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">奖品名称/数量</span>
+                <input type="text" name="userLevel[7][name]" value="{$userLevel[7]['name']}" class="form-control">
+                <span class="input-group-addon">,奖品类型</span>
+                <input type="text" name="userLevel[7][type]" value="{$userLevel[7]['type']}" class="form-control">
+                <span class="input-group-addon">,奖品概率</span>
+                <input type="text" name="userLevel[7][percent]" value="{$userLevel[7]['percent']}" class="form-control">
+                <span class="input-group-addon">%</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">单次抽奖消耗</span>
+                <input type="text" name="userLevel[score]" value="{$userLevel['score']}" class="form-control">
+                <span class="input-group-addon">钻石</span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-embossed" style="position: relative;left: 40%;top:20px;width:80px;height: 35px;font-size:14px;">{:__('OK')}</button>
+</form>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>美洽客服</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+	</head>
+	<style type="text/css">
+		
+		
+		#box{
+			width:100px;
+			height:100rpx;
+			position: absolute;
+			left:50%;
+			transform:translateX(-50px);
+			top:100px;
+		}
+	</style>
+	<body>
+		<div id="wrap">
+			<img id="box" src="./img/kefu.png" />
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+	<script type="text/javascript">
+		(function(m, ei, q, i, a, j, s) {
+		        m[i] = m[i] || function() {
+		            (m[i].a = m[i].a || []).push(arguments)
+		        };
+		        j = ei.createElement(q),
+		            s = ei.getElementsByTagName(q)[0];
+		        j.async = true;
+		        j.charset = 'UTF-8';
+		        j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
+		        s.parentNode.insertBefore(j, s);
+		    })(window, document, 'script', '_MEIQIA');
+		_MEIQIA('entId', 240039);
+		_MEIQIA('withoutBtn');	
+		// 初始化成功时的回调
+		_MEIQIA('allSet', function(){
+		      _MEIQIA('showPanel');
+		});
+		
+		$('#box').click(()=>{
+			_MEIQIA('showPanel');
+		}) 
+	</script>
+	
+	
+	
+</html>

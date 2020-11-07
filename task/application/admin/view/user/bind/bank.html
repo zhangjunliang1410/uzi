@@ -1,0 +1,41 @@
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    table.gridtable th {
+        border-width: 1px;
+        padding: 20px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+        text-align: center;
+    }
+    table.gridtable td {
+        border-width: 1px;
+        padding: 20px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+        text-align: center;
+    }
+</style>
+<table class="gridtable">
+    <tr>
+        <th>昵称</th>
+        <th>银行卡号</th>
+        <th>开户行</th>
+        <th>开户人</th>
+    </tr>
+    <tr>
+        <td>{$user.nickname}</td>
+        <td>{$user.bankcard}</td>
+        <td>{$user.bankname}</td>
+        <td>{$user.bankuser}</td>
+    </tr>
+</table>

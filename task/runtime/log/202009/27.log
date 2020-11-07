@@ -1,0 +1,3825 @@
+---------------------------------------------------------------
+[ 2020-09-27T09:11:14+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.187850s] [吞吐率：5.32req/s] [内存消耗：4,070.47kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006601s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006620s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001365s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002385s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T09:11:47+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.033313s] [吞吐率：30.02req/s] [内存消耗：4,070.48kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001707s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001721s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000990s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T09:29:06+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.031109s] [吞吐率：32.14req/s] [内存消耗：3,322.94kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001749s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001763s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(E517CC5D70D04546301D2639A4041127)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '18',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '',
+  'password' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001003s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T09:29:12+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.047116s] [吞吐率：21.22req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001712s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001725s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(E517CC5D70D04546301D2639A4041127)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T10:33:24+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.062634s] [吞吐率：15.97req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002378s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002397s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000203s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(E517CC5D70D04546301D2639A4041127)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001588s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T10:42:14+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.046713s] [吞吐率：21.41req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001791s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001804s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(E517CC5D70D04546301D2639A4041127)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001020s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:08:45+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.043952s] [吞吐率：22.75req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001731s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001744s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(E517CC5D70D04546301D2639A4041127)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001020s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:10:24+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.026720s] [吞吐率：37.43req/s] [内存消耗：3,322.94kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001733s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001746s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '18',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '',
+  'password' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001006s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:10:33+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.047208s] [吞吐率：21.18req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001726s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001740s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001073s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:26:25+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.034587s] [吞吐率：28.91req/s] [内存消耗：4,070.87kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001684s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001699s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000163s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:26:43+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.034575s] [吞吐率：28.92req/s] [内存消耗：4,070.87kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001768s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001793s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001052s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:34:57+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.047246s] [吞吐率：21.17req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002641s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002657s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'detail',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001491s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:35:03+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.041380s] [吞吐率：24.17req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002677s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002697s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'detail',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001594s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:35:21+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.035576s] [吞吐率：28.11req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001834s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001846s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'detail',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001082s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:35:23+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.034999s] [吞吐率：28.57req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001866s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001879s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'detail',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001010s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:43:18+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/problem
+[运行时间：0.034481s] [吞吐率：29.00req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001796s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000175s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'problem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '11',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'detail',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001026s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T11:43:23+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.042753s] [吞吐率：23.39req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001762s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001779s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000151s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000999s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T13:34:19+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.210434s] [吞吐率：4.75req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006667s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006686s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001367s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002355s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T13:39:22+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.043585s] [吞吐率：22.94req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001772s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001785s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001009s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:00:01+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.051466s] [吞吐率：19.43req/s] [内存消耗：4,070.46kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002086s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002101s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010475s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:00:07+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.036071s] [吞吐率：27.72req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001879s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001893s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001132s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:00:58+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.042746s] [吞吐率：23.39req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002665s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002684s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001051s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:01:11+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.034231s] [吞吐率：29.21req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001801s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001815s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001021s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:26+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.046062s] [吞吐率：21.71req/s] [内存消耗：4,262.23kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001863s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001876s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001042s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:26+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.093923s] [吞吐率：10.65req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001844s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001859s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001043s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:29+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/postTask
+[运行时间：0.040143s] [吞吐率：24.91req/s] [内存消耗：4,472.50kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001865s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001880s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'postTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001048s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->postTask[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:31+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.041917s] [吞吐率：23.86req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001910s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001925s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000208s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001039s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:32+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/postTask
+[运行时间：0.039247s] [吞吐率：25.48req/s] [内存消耗：4,472.50kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001730s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001743s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'postTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000995s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->postTask[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:37+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.042560s] [吞吐率：23.50req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001739s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001752s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000993s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:40+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/messageCate
+[运行时间：0.043557s] [吞吐率：22.96req/s] [内存消耗：4,474.57kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001738s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001752s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'messageCate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001004s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->messageCate[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:41+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/messageList
+[运行时间：0.039564s] [吞吐率：25.28req/s] [内存消耗：4,472.07kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001796s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'messageList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001019s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->messageList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:42+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/messageCate
+[运行时间：0.041341s] [吞吐率：24.19req/s] [内存消耗：4,474.57kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001796s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'messageCate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001057s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->messageCate[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:43+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.045137s] [吞吐率：22.15req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001844s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001858s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001011s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:46+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.044923s] [吞吐率：22.26req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001771s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001785s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001048s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:47+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/updateLevel
+[运行时间：0.039969s] [吞吐率：25.02req/s] [内存消耗：4,472.66kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001749s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001763s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'updateLevel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001060s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->updateLevel[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:47+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/shareImage
+[运行时间：3.528629s] [吞吐率：0.28req/s] [内存消耗：4,472.84kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001855s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001870s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'shareImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001058s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->shareImage[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:48+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.045620s] [吞吐率：21.92req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001780s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001795s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:52+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.040623s] [吞吐率：24.62req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001854s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001868s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000201s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000998s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:12:54+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.041722s] [吞吐率：23.97req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001768s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000997s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:05+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.033649s] [吞吐率：29.72req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001751s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001764s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001022s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:09+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.063306s] [吞吐率：15.80req/s] [内存消耗：4,473.84kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001821s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001845s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001111s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:09+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.046626s] [吞吐率：21.45req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001805s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001820s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001105s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:30+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040095s] [吞吐率：24.94req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001741s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001754s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001027s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:30+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040301s] [吞吐率：24.81req/s] [内存消耗：4,473.84kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001785s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001799s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001026s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:34+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.037930s] [吞吐率：26.36req/s] [内存消耗：4,473.84kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001757s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001771s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000990s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:34+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040007s] [吞吐率：25.00req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001774s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001786s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:13:37+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.039285s] [吞吐率：25.46req/s] [内存消耗：4,473.84kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001760s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001774s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '65fd242b-0894-4744-8061-7eb5e69f0a45',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001022s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:14:46+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.055730s] [吞吐率：17.94req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001829s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001843s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001019s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:16:07+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.035114s] [吞吐率：28.48req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001884s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001897s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001044s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:16:13+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnInfo
+[运行时间：0.035994s] [吞吐率：27.78req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001920s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001937s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000189s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001110s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:17:55+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.049145s] [吞吐率：20.35req/s] [内存消耗：4,262.23kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001976s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001991s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001125s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:17:55+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.046094s] [吞吐率：21.69req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001763s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001777s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '277552f3-b694-4e57-aa14-e351a27dd502',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001056s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:17:58+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/postTask
+[运行时间：0.038902s] [吞吐率：25.71req/s] [内存消耗：4,472.50kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001734s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001747s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'postTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '277552f3-b694-4e57-aa14-e351a27dd502',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000999s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->postTask[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:17:59+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.039626s] [吞吐率：25.24req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001718s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001732s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '277552f3-b694-4e57-aa14-e351a27dd502',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000992s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:18:00+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040200s] [吞吐率：24.88req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001727s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001742s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '277552f3-b694-4e57-aa14-e351a27dd502',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001072s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:18:50+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.044219s] [吞吐率：22.61req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001878s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001897s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001048s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:51+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.050166s] [吞吐率：19.93req/s] [内存消耗：4,262.23kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001695s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001707s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001012s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:51+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.071374s] [吞吐率：14.01req/s] [内存消耗：4,535.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003029s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003063s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000269s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001715s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:53+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.057940s] [吞吐率：17.26req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002677s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002696s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000255s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001505s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:54+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040277s] [吞吐率：24.83req/s] [内存消耗：4,455.45kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001822s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001837s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000999s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:57+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.041258s] [吞吐率：24.24req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001890s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001920s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001075s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:26:58+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.043921s] [吞吐率：22.77req/s] [内存消耗：4,456.22kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001876s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001890s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001098s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:00+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.039812s] [吞吐率：25.12req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001813s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001828s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001032s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:01+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.061938s] [吞吐率：16.15req/s] [内存消耗：4,485.83kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002621s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002642s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000199s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001368s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:02+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.042368s] [吞吐率：23.60req/s] [内存消耗：4,456.47kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001797s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:05+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.038342s] [吞吐率：26.08req/s] [内存消耗：4,487.12kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001728s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001741s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001012s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:05+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.040409s] [吞吐率：24.75req/s] [内存消耗：4,485.83kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001850s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001865s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'tasktype' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001048s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:06+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.041087s] [吞吐率：24.34req/s] [内存消耗：4,456.34kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001681s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001695s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '2c4f9715-9c54-4c21-9043-918df290bc37',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'id' => '26',
+  'type' => 'list',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001037s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:27:15+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.047554s] [吞吐率：21.03req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001948s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001962s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001058s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:35:50+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/moneyList
+[运行时间：0.035747s] [吞吐率：27.97req/s] [内存消耗：4,070.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001864s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001879s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'moneyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001137s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:21+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/moneyList
+[运行时间：0.034674s] [吞吐率：28.84req/s] [内存消耗：4,070.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001748s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001761s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'moneyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001054s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:21+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnList
+[运行时间：0.035035s] [吞吐率：28.54req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001847s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001865s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001018s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:23+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnList
+[运行时间：0.034962s] [吞吐率：28.60req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001791s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001808s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001010s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:25+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/turnList
+[运行时间：0.033870s] [吞吐率：29.52req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001752s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001765s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000148s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'turnList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001033s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:25+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/moneyList
+[运行时间：0.033264s] [吞吐率：30.06req/s] [内存消耗：4,070.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001882s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001899s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'moneyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001012s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T14:36:35+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/moneyList
+[运行时间：0.035113s] [吞吐率：28.48req/s] [内存消耗：4,070.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001767s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001780s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'moneyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001015s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:02:34+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/moneyList
+[运行时间：0.035427s] [吞吐率：28.23req/s] [内存消耗：4,070.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001869s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001886s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'moneyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001075s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:15:11+08:00 ] 122.13.162.36 GET task.zz0510.top/
+[运行时间：0.037688s] [吞吐率：26.53req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001843s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001862s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001127s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:15:11+08:00 ] 122.13.162.36 GET task.zz0510.top/
+[运行时间：0.024760s] [吞吐率：40.39req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001711s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001726s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001005s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:15:11+08:00 ] 122.13.162.36 GET task.zz0510.top/
+[运行时间：0.023348s] [吞吐率：42.83req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001698s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001711s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000139s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001017s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:18:00+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.046221s] [吞吐率：21.64req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001727s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001742s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001032s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:25:44+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.034948s] [吞吐率：28.61req/s] [内存消耗：4,070.48kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001827s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001839s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001060s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:25:47+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/withdraw
+[运行时间：0.035732s] [吞吐率：27.99req/s] [内存消耗：4,070.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001894s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001912s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001038s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:26:19+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/withdraw
+[运行时间：0.033361s] [吞吐率：29.98req/s] [内存消耗：4,070.89kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001728s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001742s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '9',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'send',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001034s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:40:54+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/withdrawList
+[运行时间：0.034070s] [吞吐率：29.35req/s] [内存消耗：4,070.94kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001723s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001735s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'withdrawList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001064s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T15:44:10+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.045520s] [吞吐率：21.97req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001785s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001802s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001117s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T16:04:49+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeConfig
+[运行时间：0.034952s] [吞吐率：28.61req/s] [内存消耗：4,070.58kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001730s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001744s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000202s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001008s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T16:05:08+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeConfig
+[运行时间：0.045009s] [吞吐率：22.22req/s] [内存消耗：4,070.58kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002537s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002558s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000236s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001560s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T16:19:04+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeConfig
+[运行时间：0.036685s] [吞吐率：27.26req/s] [内存消耗：4,070.58kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001931s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001945s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001111s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T16:35:32+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeConfig
+[运行时间：0.036012s] [吞吐率：27.77req/s] [内存消耗：4,070.58kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001759s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001773s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(162636A195442B4FD2D6E1D81BD13E8)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001020s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T16:57:14+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.055382s] [吞吐率：18.06req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001844s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001858s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001029s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T17:06:43+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeList
+[运行时间：0.038996s] [吞吐率：25.64req/s] [内存消耗：4,070.94kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001763s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001778s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001558s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T17:07:36+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/rechargeList
+[运行时间：0.035638s] [吞吐率：28.06req/s] [内存消耗：4,070.94kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001895s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001909s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'rechargeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8082/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8082',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001098s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T17:13:01+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.064783s] [吞吐率：15.44req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001792s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001805s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001020s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T17:32:03+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.049530s] [吞吐率：20.19req/s] [内存消耗：4,262.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001844s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001858s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13673601658',
+  'password' => '222222',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001068s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T18:12:12+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.049341s] [吞吐率：20.27req/s] [内存消耗：4,262.50kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001790s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001804s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(9DD0AD801771128B35398CDEA7F7DFAF)',
+  'origin' => 'http://localhost:8080',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'account' => '17839913252',
+  'password' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T18:23:15+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/myRebate
+[运行时间：0.036207s] [吞吐率：27.62req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001921s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001935s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'myRebate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T18:23:28+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/myRebate
+[运行时间：0.033444s] [吞吐率：29.90req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001789s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001802s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'myRebate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001064s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-27T18:23:29+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/myRebate
+[运行时间：0.036520s] [吞吐率：27.38req/s] [内存消耗：4,070.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001932s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001946s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'myRebate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 HBuilderX',
+  'x-devtools-emulate-network-conditions-client-id' => '(AB679A2005BCDAACA8F9C3D4B9A86475)',
+  'origin' => 'http://localhost:8081',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'task.zz0510.top',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001124s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

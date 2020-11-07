@@ -1,0 +1,37 @@
+<form class="form-inline" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="col-xs-5 col-sm-3 col-md-2 control-label" style="text-align: right;">广告分红</label>
+        <div class="col-xs-12 col-sm-9">
+            <div class="input-group">
+                <span class="input-group-addon">分红总金额</span>
+                <input type="text" name="userLevel[sum]" value="{$userLevel['sum']}" class="form-control">
+                <span class="input-group-addon">元</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">今日分红人数</span>
+                <input type="text" name="userLevel[num]" value="{$userLevel['num']}" class="form-control">
+                <span class="input-group-addon">人</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">分红人需完成</span>
+                <input type="text" name="userLevel[taskNum]" value="{$userLevel['taskNum']}" class="form-control">
+                <span class="input-group-addon">个任务</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">内定</span>
+                <input type="text" name="userLevel[usernum]" value="{$userLevel['usernum']}" class="form-control">
+                <span class="input-group-addon">人</span>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">分红规则</span>
+                <textarea  rows="20px" cols="100px" name="userLevel[content]"  class="form-control">
+                    {$userLevel['content']}
+                </textarea>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success btn-embossed" style="margin-left: 190px">{:__('OK')}</button>
+    </div>
+
+</form>

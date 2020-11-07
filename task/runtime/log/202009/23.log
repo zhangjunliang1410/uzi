@@ -1,0 +1,860 @@
+---------------------------------------------------------------
+[ 2020-09-23T09:47:17+08:00 ] 219.157.255.207 GET task.zz0510.top/user/updateUrl
+[运行时间：0.237009s] [吞吐率：4.22req/s] [内存消耗：2,183.47kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.011397s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011424s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003672s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'updateUrl',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:26+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.094791s] [吞吐率：10.55req/s] [内存消耗：4,290.07kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002346s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002365s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000151s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '35',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15100151000',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004738s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:26+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.053254s] [吞吐率：18.78req/s] [内存消耗：4,562.46kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001955s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001969s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000176s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001370s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:27+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.052432s] [吞吐率：19.07req/s] [内存消耗：4,465.66kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002627s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002646s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000195s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001660s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:32+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/myRebate
+[运行时间：0.039383s] [吞吐率：25.39req/s] [内存消耗：4,495.38kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001810s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001823s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'myRebate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '6',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001065s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->myRebate[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:33+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/coldMoney
+[运行时间：0.041944s] [吞吐率：23.84req/s] [内存消耗：4,534.34kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001796s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001809s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'coldMoney',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '6',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001023s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->coldMoney[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:36+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/myRebate
+[运行时间：0.037413s] [吞吐率：26.73req/s] [内存消耗：4,495.38kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001709s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001722s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'myRebate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '6',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001017s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->myRebate[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T09:47:37+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.039215s] [吞吐率：25.50req/s] [内存消耗：4,465.66kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001701s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001714s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => 'e3689702-b6e8-4aec-ae8c-41ed2406fe57',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001019s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T11:09:05+08:00 ] 47.101.155.98 GET task.zz0510.top/
+[运行时间：0.094028s] [吞吐率：10.64req/s] [内存消耗：2,837.37kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006541s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006560s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001463s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001350s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:30:35+08:00 ] 219.157.255.207 GET task.zz0510.top/user/updateUrl
+[运行时间：0.237195s] [吞吐率：4.22req/s] [内存消耗：2,183.48kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.011119s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011150s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003599s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'updateUrl',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:30:39+08:00 ] 219.157.255.207 POST task.zz0510.top/api/user/login
+[运行时间：0.107265s] [吞吐率：9.32req/s] [内存消耗：4,290.07kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001750s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001763s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '35',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'account' => '15100151000',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004851s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/task/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:30:39+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/home
+[运行时间：0.051193s] [吞吐率：19.53req/s] [内存消耗：4,562.46kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001673s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001685s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000989s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->home[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:30:57+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.038240s] [吞吐率：26.15req/s] [内存消耗：4,514.36kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001675s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001688s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000138s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:00+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/index
+[运行时间：0.038612s] [吞吐率：25.90req/s] [内存消耗：4,465.66kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001696s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001709s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001004s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:03+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/postTask
+[运行时间：0.038430s] [吞吐率：26.02req/s] [内存消耗：4,499.74kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001723s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001737s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'postTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001001s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->postTask[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:06+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.038645s] [吞吐率：25.88req/s] [内存消耗：4,514.36kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001699s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001712s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001007s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:07+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.040467s] [吞吐率：24.71req/s] [内存消耗：4,482.70kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001747s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001760s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001042s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:19+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/accept
+[运行时间：0.048632s] [吞吐率：20.56req/s] [内存消耗：4,486.59kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001764s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001778s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'accept',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '5',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000988s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->accept[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:19+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.041257s] [吞吐率：24.24req/s] [内存消耗：4,482.73kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001767s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001782s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000980s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:29+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskDetail
+[运行时间：0.038506s] [吞吐率：25.97req/s] [内存消耗：4,482.73kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001652s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001676s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000153s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+  'type' => 'list',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000992s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskDetail[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T16:31:31+08:00 ] 219.157.255.207 POST task.zz0510.top/api/index/taskList
+[运行时间：0.039831s] [吞吐率：25.11req/s] [内存消耗：4,514.36kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001717s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001730s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'taskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'task.zz0510.top',
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'token' => '288e1cff-643f-4fa7-88fd-9d6b5de2b83c',
+  'user-agent' => 'HUAWEI MLA-AL10(Android/6.0) (uni.UNI80C7101/1.0.0) Weex/0.26.0 1080x1810',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'tasktype' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->taskList[ /www/wwwroot/task/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T17:14:21+08:00 ] 14.17.70.179 GET task.zz0510.top/
+[运行时间：0.216242s] [吞吐率：4.62req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006629s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006651s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001348s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002364s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T17:14:21+08:00 ] 14.17.70.179 GET task.zz0510.top/
+[运行时间：0.023680s] [吞吐率：42.23req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001813s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001827s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001053s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-23T17:14:21+08:00 ] 14.17.70.179 GET task.zz0510.top/
+[运行时间：0.023696s] [吞吐率：42.20req/s] [内存消耗：2,837.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001764s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001777s ]
+[ info ] [ LANG ] /www/wwwroot/task/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+  'host' => 'task.zz0510.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000994s ]
+[ info ] [ LANG ] /www/wwwroot/task/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/task/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/task/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
