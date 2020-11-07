@@ -67,6 +67,11 @@ class Index extends Api
         $this->success("信息返回成功",$data);
     }
 
+    public function gitCs()
+    {
+        $this->success('测试下git');
+    }
+
     public function home()
     {
         $user = $this->auth->getUserinfo();
